@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using Toci.Hammer.Palindrom;
 
 namespace Toci.Hammer
 {
@@ -10,8 +12,27 @@ namespace Toci.Hammer
     {
         static void Main(string[] args)
         {
-            
+            //while(true)
 
+            // iis, apache, tomcat, lighthttp
+            for (;;) // nieskończona pętla
+            {
+                Console.WriteLine("Podaj słowko: ");
+                string palindromCandidate = Console.ReadLine();
+
+                DawidPalindrom dp = new DawidPalindrom();
+                if (dp.IsPalindrom(palindromCandidate))
+                {
+                    Console.WriteLine("To jest palindrom.");
+                }
+                else
+                {
+                    Console.WriteLine("To nie jest palindrom.");
+                }
+
+                //Thread.Sleep(3000);
+            }
+            // ??????
             Dictionary<string, string> monthsMap = new Dictionary<string, string>()
             {
                 { "01", "styczeń" },

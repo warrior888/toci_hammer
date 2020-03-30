@@ -22,14 +22,7 @@ namespace Toci.Hammer
 
         public bool IsPeselValid(string peselCandidate)
         {
-            bool result = ValidateDateInPesel(peselCandidate) && ValidatePeselRest(peselCandidate);
-
-            if (!result)
-            {
-                return false;
-            }
-
-            return result;
+            return ValidateDateInPesel(peselCandidate) && ValidatePeselRest(peselCandidate);
         }
 
         protected bool ValidateDateInPesel(string peselCandidate)

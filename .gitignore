@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+/Toci.Hammer/.vs/Toci.Hammer/v15/Server/sqlite3

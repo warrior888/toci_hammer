@@ -1,0 +1,6 @@
+C:\Users\bzapa\Documents\toci_hammer\Toci.Hammer\Toci.Hammer\bin\Debug\Toci.Hammer.exe.config
+C:\Users\bzapa\Documents\toci_hammer\Toci.Hammer\Toci.Hammer\bin\Debug\Toci.Hammer.exe
+C:\Users\bzapa\Documents\toci_hammer\Toci.Hammer\Toci.Hammer\bin\Debug\Toci.Hammer.pdb
+C:\Users\bzapa\Documents\toci_hammer\Toci.Hammer\Toci.Hammer\obj\Debug\Toci.Hammer.csproj.CoreCompileInputs.cache
+C:\Users\bzapa\Documents\toci_hammer\Toci.Hammer\Toci.Hammer\obj\Debug\Toci.Hammer.exe
+C:\Users\bzapa\Documents\toci_hammer\Toci.Hammer\Toci.Hammer\obj\Debug\Toci.Hammer.pdb
